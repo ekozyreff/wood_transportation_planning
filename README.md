@@ -27,7 +27,7 @@ The pre-processing of the input data and post-processing of the output data are 
 
 ![planning_tool scheme](architecture.png)
 
-This tool is used on a daily basis by PPC personnel to plan the transportation of around 200,000 tons of wood weekly.
+In short, the optimization model aims to minimize deviations across all its constraints, while adhering to stock balancing equations for all products and throughout all periods.
 
-The Python code comprises a little over 3000 lines, and the VBA code, which is divided into several macros, totals around 4000 lines. Since it was created for commercial purposes, it cannot be made publicly available.
+This tool is used on a daily basis by PPC personnel to plan the transportation of around 200,000 tons of wood weekly. The Python code comprises a little over 3000 lines, and the VBA code, which is divided into several macros, totals around 4000 lines. Since it was created for commercial purposes, it cannot be made publicly available.
 
