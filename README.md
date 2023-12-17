@@ -23,7 +23,8 @@ To assist the planning of this process, a tool was created using with the follwi
 - A transportation linear programming model that balances stocks in all locations and all periods of the plan.
 - A final Excel file, with the output bases (transportation plan and projected stocks).
 
-The pre-processing of the input bases and post-processing of the output bases are done using VBA. The optimization model was written in Python using Pyomo and the free solver CBC (no comercial solver was necesssary because the solve time is very short, usually less than 5 seconds).
+The pre-processing of the input bases and post-processing of the output bases are done using VBA. The optimization model was written in Python using Pyomo and [COIN-OR](https://www.coin-or.org/)'s free solver CBC. (No comercial solver was necesssary because the solve time is very short, usually less than 5 seconds.)
+
 
 
 
