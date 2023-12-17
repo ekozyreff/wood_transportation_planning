@@ -16,5 +16,14 @@ This process is complext because it involves crucial (and costly) aspects, such 
 
 Once a transportation plan is ready, a large number of trucks must be designated to pick up and drop its loads. This is done on a daily basis and is a procedure that is revised and refined on the go.
 
-To assist the planning of this process, a tool was created using an interface in Excel, where the user can set up limits and analyze the inputs. 
+To assist the planning of this process, a tool was created using with the follwing structure:
+
+- An Excel file containing all input bases (stocks and demands).
+- Another Excel file, which provides an interface for the user to analyze the inputs and make adjustments to the constraints of the plan.
+- A transportation linear programming model that balances stocks in all locations and all periods of the plan.
+- A final Excel file, with the output bases (transportation plan and projected stocks).
+
+The pre-processing of the input bases and post-processing of the output bases are done using VBA. The optimization model was written in Python using Pyomo and the free solver CBC (no comercial solver was necesssary because the solve time is very short, usually less than 5 seconds).
+
+
 
