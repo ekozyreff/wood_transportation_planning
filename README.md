@@ -25,6 +25,8 @@ To assist the planning of this process, a tool was created using with the follwi
 
 The pre-processing of the input bases and post-processing of the output bases are done using VBA. The optimization model was written in Python using Pyomo and [COIN-OR](https://www.coin-or.org/)'s free solver CBC. (No comercial solver was necesssary because the solve time is very short, usually less than 5 seconds.)
 
+![planning_tool scheme](architecture.png)
+
 
 
 
