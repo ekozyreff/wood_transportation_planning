@@ -27,6 +27,7 @@ The pre-processing of the input bases and post-processing of the output bases ar
 
 ![planning_tool scheme](architecture.png)
 
+The Python code has a little over 3000 lines and the VBA code, which is divided into several macros, has around 4000 lines in total. Since is was created for commercial purposes, it cannot be made publicly available.
 
 
 
