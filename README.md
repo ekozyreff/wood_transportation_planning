@@ -20,7 +20,7 @@ To assist in the planning of this process, a tool was created with the following
 
 - An Excel file containing all input data (stocks and demands).
 - Another Excel file, which provides an interface for the user to analyze the inputs and make adjustments to the constraints of the plan.
-- A transportation linear programming model that balances stocks in all locations and for all periods of the plan.
+- A transportation linear programming model that balances stocks in all locations and for all periods of the plan (written in Python and compiled to an executable file).
 - A final Excel file, with the output data (transportation plan and projected stocks).
 
 The pre-processing of the input data and post-processing of the output data are done using VBA. The optimization model was written in Python using Pyomo and [COIN-OR](https://www.coin-or.org/)'s free solver CBC. (No commercial solver was necessary because the solve time is very short, usually less than 5 seconds.)
